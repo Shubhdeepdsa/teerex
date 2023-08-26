@@ -3,7 +3,6 @@
 --primary: rgb(131, 209, 252);
 --secondary: rgb(254, 200, 208);
 --accent: rgb(244, 89, 6); */
-
 .App {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,12 +11,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: linear-gradient(
-    135deg,
-    var(--background),
-    var(--primary),
-    var(--accent)
-  );
+  background: linear-gradient(135deg,
+      var(--background),
+      var(--primary),
+      var(--accent));
   background-size: 200% 200%;
   animation: gradientAnimation 10s ease infinite;
 }
@@ -26,9 +23,11 @@
   0% {
     background-position: 0% 0%;
   }
+
   50% {
     background-position: 100% 100%;
   }
+
   100% {
     background-position: 0% 0%;
   }

@@ -35,10 +35,10 @@ export default function Navbar() {
                         TeeRex Store
                     </Typography>
                 </Toolbar>
-                <Box sx={{ display: { xs: 'none', sm: 'block' } , mt:'20px', mr:'20px'}}>
+                <Box sx={{ display: { xs: 'none', sm: 'block' }, mt: '20px', mr: '20px' }}>
                     <Box sx={{ display: { xs: 'none', sm: 'block' }, alignSelf: 'flex-end' }}>
                         <Button varient="outlined" sx={{ color: 'black', ml: 2 }} size='large'>Products</Button>
-                        <Button sx={{backgroundColor:'#83d1fc', color: 'black', ml: 2 }} endIcon={<ShoppingCartIcon />}>About Us</Button>
+                        <Button sx={{ backgroundColor: '#83d1fc', color: 'black', ml: 2 }} endIcon={<ShoppingCartIcon />}>About Us</Button>
                     </Box>
                 </Box>
             </Box>
